@@ -1,0 +1,25 @@
+{
+  "name": "filereadwrite",
+  "version": "1.0.0",
+  "description": "Repository w/ exclusion of node_modules",
+  "main": "jsonfirst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createJSON": "node jsonfirst.js",
+    "modifyJSON": "node jsonsecond.js",
+    "clean": "rm myJSON*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoKrizic/SimplifiedRepo.git"
+  },
+  "author": "Marco Krizic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoKrizic/SimplifiedRepo/issues"
+  },
+  "homepage": "https://github.com/MarcoKrizic/SimplifiedRepo#readme",
+  "dependencies": {
+    "npm-add-script": "^1.1.0"
+  }
+}
